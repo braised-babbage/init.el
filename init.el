@@ -69,6 +69,7 @@
   (progn
     (setq ido-enable-flex-matching t)
     (setq ido-everywhere t)
+    (setq ido-auto-merge-work-directories-length -1)
     (ido-mode 1)))
 
 (use-package elpy
